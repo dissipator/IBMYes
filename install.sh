@@ -103,8 +103,8 @@ install(){
     VMESSCODE=$(base64 -w 0 << EOF
     {
       "v": "2",
-      "ps": "lucas-v2",
-      "add": "lucas-v2.us-south.cf.appdomain.cloud",
+      "ps": "lucasv2",
+      "add": "lucasv2.us-south.cf.appdomain.cloud",
       "port": "443",
       "id": "${UUID}",
       "aid": "4",
